@@ -1,0 +1,22 @@
+server:
+  port: ${PORT:8090}
+
+spring:
+  application:
+    name: user-api-hr
+  jpa:
+    #Postgresql JPA
+    database-platform: org.hibernate.dialect.PostgreSQL94Dialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+  datasource:
+    #PostGreSQL Datasource
+    url: jdbc:postgresql://localhost:5433/hrSystem
+    username: postgres
+    password: techbankRootPsw
+
+
