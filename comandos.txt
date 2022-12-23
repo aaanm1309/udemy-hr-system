@@ -1,0 +1,6 @@
+docker compose -f /mnt/d/Adriano/Cursos/Udemy/hr-system/docker-compose up -d
+
+docker compose -f /mnt/d/Adriano/Cursos/Udemy/hr-system/docker-compose up
+
+
+docker compose -f /mnt/d/Adriano/Cursos/Udemy/hr-system/docker-compose-postgres up -d

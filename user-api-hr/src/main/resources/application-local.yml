@@ -23,9 +23,9 @@ spring:
         format_sql: true
   datasource:
     #PostGreSQL Datasource
-    url: jdbc:postgresql://localhost:5433/hrSystem
+    url: jdbc:postgresql://localhost:5434/hrSystem
     username: postgres
-    password: techbankRootPsw
+    password: changeme
 
 
 

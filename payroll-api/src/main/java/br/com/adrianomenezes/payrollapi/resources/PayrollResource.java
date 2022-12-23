@@ -22,4 +22,10 @@ public class PayrollResource {
         return ResponseEntity.ok().body(
                 service.getPayment(workerId,payroll));
     }
+
+    @GetMapping(value = "/teste")
+    public ResponseEntity<Object> getTest(){
+        return ResponseEntity.ok().body(
+                "Teste OK");
+    }
 }
