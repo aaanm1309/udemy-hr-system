@@ -11,6 +11,6 @@ eureka:
     fetch-registry: false
   instance:
     hostname: localhost
-#  renewalPercentThreshold: 0.85
-#  wait-time-in-ms-when-sync-empty: 0
-#  enableSelfPreservation: false
+  renewalPercentThreshold: 0.85
+  wait-time-in-ms-when-sync-empty: 0
+  enableSelfPreservation: false
