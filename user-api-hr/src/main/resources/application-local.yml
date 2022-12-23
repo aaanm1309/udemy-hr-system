@@ -1,10 +1,18 @@
 server:
   port: ${PORT:8090}
 
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URL:http://localhost:8761/eureka/}
+  instance:
+    hostname: localhost
+
 spring:
   application:
     name: user-api-hr
   jpa:
+    open-in-view: true
     #Postgresql JPA
     database-platform: org.hibernate.dialect.PostgreSQL94Dialect
     show-sql: true
@@ -18,5 +26,6 @@ spring:
     url: jdbc:postgresql://localhost:5433/hrSystem
     username: postgres
     password: techbankRootPsw
+
 
 
